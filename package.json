@@ -1,0 +1,22 @@
+{
+  "name": "api1",
+  "version": "1.0.0",
+  "description": "apishk",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[D\u001b[D\u001b[Chttps://github.com/kostyaMilutsa/api1.git"
+  },
+  "keywords": [
+    "kostyas",
+    "api"
+  ],
+  "author": "milter kostya",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
