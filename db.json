@@ -2,12 +2,12 @@
   "users": [
     {
       "id": 1,
-      "first_name": "Sebastian",
-      "last_name": "Eschweiler",
+      "first_name": "Konstantine",
+      "last_name": "Milter",
       "email": "sebastian@codingthesmartway.com",
-      "userName": "seb",
+      "userName": "meIsCool",
       "phone": "+375447229068",
-      "site": "k.me/kostya"
+      "site": "t.me/konmil"
     },
     {
       "id": 2,
@@ -20,37 +20,29 @@
     },
     {
       "id": 3,
-      "first_name": "Sebastian",
-      "last_name": "Eschweiler",
-      "email": "sebastian@codingthesmartway.com",
+      "first_name": "Katus",
+      "last_name": "Eulers",
+      "email": "kostya@codingthesmartway.com",
       "userName": "seb",
-      "phone": "+375447229068",
-      "site": "k.me/kostya"
+      "phone": "+375446729068",
+      "site": "k.me/nadya"
     }
   ],
   "albums": [
     {
       "id": 1,
-      "name": "Sebastian",
-      "description": "Eschweiler",
+      "name": "The album of my love",
+      "description": "aga",
       "authorId": 1,
       "photos": [ 1, 2, 3 ]
     },
     {
       "id": 2,
-      "name": "kosya",
-      "description": "Eschweiler2",
-      "authorId": 1,
+      "name": "Previous autumn",
+      "description": "this is awesome",
+      "authorId": 3,
       "photos": [ 4, 5, 6 ]
     }
-  ],
-  "photos": [
-    {
-      "id": 1,
-      "description": "Eschweiler",
-      "authorId": 1,
-      "albimId": 2,
-      "src": "/photo1.jpg"
-    }
+  ]
   ]
 }
