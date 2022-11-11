@@ -1,19 +1,56 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com",
+      "userName": "seb",
+      "phone": "+375447229068",
+      "site": "k.me/kostya"
+    },
+    {
+      "id": 2,
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com",
+      "userName": "seb",
+      "phone": "+375447229068",
+      "site": "k.me/kostya"
+    },
+    {
+      "id": 3,
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com",
+      "userName": "seb",
+      "phone": "+375447229068",
+      "site": "k.me/kostya"
     }
   ],
-  "comments": [
+  "albums": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Sebastian",
+      "description": "Eschweiler",
+      "authorId": 1,
+      "photos": [ 1, 2, 3 ]
+    },
+    {
+      "id": 2,
+      "name": "kosya",
+      "description": "Eschweiler2",
+      "authorId": 1,
+      "photos": [ 4, 5, 6 ]
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "photos": [
+    {
+      "id": 1,
+      "description": "Eschweiler",
+      "authorId": 1,
+      "albimId": 2,
+      "src": "/photo1.jpg"
+    }
+  ]
 }
